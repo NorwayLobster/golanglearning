@@ -1,0 +1,23 @@
+
+load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository", "new_git_repository")
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+local_repository(
+    name = "repo1",
+    path = "/home/wangcheng.801/repo/bazellearning/stage5/third_party/repo1",
+)
+
+local_repository(
+    name = "repo2",
+    path = "/home/wangcheng.801/repo/bazellearning/stage5/third_party/repo2",
+)
+
+
+new_local_repository(
+    name = "repo3",
+    path = "/home/wangcheng.801/repo/bazellearning/stage5/third_party/repo3",
+    build_file = "coworker.BUILD",
+)
+
+# todo: git_repository/new_git_repository
+# .bazelignore怎么使用， 
+# .bazelignore能否用到non-bazel local/git repo中

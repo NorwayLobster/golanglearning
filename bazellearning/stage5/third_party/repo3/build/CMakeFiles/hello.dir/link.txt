@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/hello.dir/main.cc.o  -o hello -Wl,-rpath,/home/wangcheng.801/repo/bazellearning/stage5/third_party/repo3/build: libHelloUniverse.so 
