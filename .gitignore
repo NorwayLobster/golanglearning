@@ -1,0 +1,5 @@
+bazel-*
+a.out
+*.exe
+.vscode
+build

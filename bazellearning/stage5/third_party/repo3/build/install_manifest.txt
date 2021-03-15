@@ -1,3 +1,0 @@
-/home/wangcheng.801/repo/bazellearning/stage5/third_party/repo3/build/install/bin/hello
-/home/wangcheng.801/repo/bazellearning/stage5/third_party/repo3/build/install/lib/libHelloUniverse.so
-/home/wangcheng.801/repo/bazellearning/stage5/third_party/repo3/build/install/include/include/hello/helloUniverse.hpp
